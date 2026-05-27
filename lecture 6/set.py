@@ -46,3 +46,14 @@ for i in range(len(a)):
     removed_element=a.pop()
 print(removed_element)
 print(a)
+
+
+
+
+
+set1={1,2,3}
+set2={3,4,5}
+
+print(set1 | set2)  # union of set1 and set2
+print(set1 & set2)  #Intersection of set1 and set2
+print(set1 - set2)  #difference of set1 and set2
